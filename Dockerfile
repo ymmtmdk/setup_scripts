@@ -2,6 +2,7 @@ FROM ubuntu:16.04
 
 ENV TERM xterm-256color
 ENV HOME /root
+ENV DEBIAN_FRONTEND noninteractive
 
 RUN mkdir $HOME/setup_scripts
 WORKDIR mkdir $HOME/setup_scripts
