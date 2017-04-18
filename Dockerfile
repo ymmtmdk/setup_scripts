@@ -12,3 +12,4 @@ COPY setup_admin.sh ./
 RUN sh setup_admin.sh
 COPY setup_user.sh fisher.rb ./
 RUN sh setup_user.sh
+WORKDIR $HOME
