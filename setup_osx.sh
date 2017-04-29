@@ -1,3 +1,5 @@
+# curl -L https://raw.githubusercontent.com/ymmtmdk/setup_scripts/master/setup_osx.sh | sh
+echo cache sudo password
 sudo echo start
 
 # ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
