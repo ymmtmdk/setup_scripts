@@ -8,8 +8,7 @@ brew tap caskroom/cask
 brew tap neovim/neovim
 brew cask install dropbox karabiner iterm2
 
-brew install reattach-to-user-namespace ruby readline zlib fish neovim python3 peco
-
+brew install reattach-to-user-namespace ruby readline zlib fish neovim python3 peco go yarn
 
 # rbenv install 2.4.1
 pip3 install --user neovim
