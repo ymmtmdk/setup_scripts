@@ -10,6 +10,8 @@ brew cask install dropbox karabiner iterm2
 
 brew install reattach-to-user-namespace ruby fish neovim python3 peco go yarn
 
+gem install bundler neovim
+
 # rbenv install 2.4.1
 pip3 install --user neovim
 
