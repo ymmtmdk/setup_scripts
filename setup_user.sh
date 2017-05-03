@@ -10,6 +10,8 @@ curl -LO https://github.com/peco/peco/releases/download/v0.5.1/peco_linux_386.ta
 mkdir $HOME/mybin
 tar xvf peco_linux_386.tar.gz
 cp peco_linux_386/peco $HOME/mybin
+curl -LO https://raw.githubusercontent.com/ymmtmdk/peco_select_history_with_c/master/fish_history.c
+gcc -o $HOME/mybin/fish_history -O3 fish_history.c
 
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > dein_install.sh
 sh dein_install.sh $HOME/.config/nvim/dein
