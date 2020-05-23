@@ -8,8 +8,6 @@ fi
 # echo cache sudo password
 # sudo echo start
 
-# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
 brew cask install karabiner-elements iterm2
 
 brew install ruby fish neovim python3 peco
@@ -37,3 +35,7 @@ fish -c 'fisher'
 
 reset
 echo ok
+
+curl -LO https://github.com/powerline/fonts/raw/master/RobotoMono/Roboto%20Mono%20Thin%20Italic%20for%20Powerline.ttf
+# open RobotoMono/Roboto%20Mono%20Thin%20Italic%20for%20Powerline.ttf
+
